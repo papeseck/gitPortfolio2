@@ -15,6 +15,7 @@ const Navbar = () => {
         <Link to='/'> 
         <img src={pape} style={{ width:"100px" , height:"90px" ,borderRadius:"15px"}}/>
         </Link>
+        <h1>pape</h1>
         <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li>
                 <Link to="/">Home</Link>
