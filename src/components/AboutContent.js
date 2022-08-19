@@ -5,6 +5,7 @@ import { Link } from "react-router-dom"
 const AboutContent = () => {
   return (
     <div className="about">
+        
         <div className="left">
             <h1> Who AM I ?</h1>
             <p> I'm Full stack developer. I create responsive secure website </p>

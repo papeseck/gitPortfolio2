@@ -1,5 +1,5 @@
 import "./NavbarStyles.css"
-
+import pape from "../assets/pap.jpeg";
 import React, {useState} from 'react'
 import { Link } from "react-router-dom";
 import {FaBars, FaTimes} from "react-icons/fa"
@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <div className="header">
         <Link to='/'> 
-        <h1>Portfolio  <br/>pns</h1>
+        <img src={pape} style={{ width:"100px" , height:"90px" ,borderRadius:"15px"}}/>
         </Link>
         <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li>

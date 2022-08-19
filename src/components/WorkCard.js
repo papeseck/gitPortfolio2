@@ -40,9 +40,9 @@ const WorkCard = () => {
               <NavLink to="url.com" className="btn">
                 VIEW
               </NavLink>
-              <NavLink to="url.com" className="btn">
+              <a href="https://github.com/papeseck/gitPortfolio2.git"><button  className="btn"> 
                 SOURCE
-              </NavLink>
+              </button> </a>
             </div>
           </div>
         </div>

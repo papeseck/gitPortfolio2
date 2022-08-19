@@ -2,6 +2,10 @@ label {
     color: #fff;
     margin-bottom: 0.5rem;
 }
+.contact {
+    text-align: center;
+    padding: 4rem 0 2rem 0;
+}
 form {
     display: flex;
     flex-direction: column;
@@ -16,4 +20,5 @@ form input , form textarea {
     background-color: rgb(255, 255, 255, 0.1);
     border-color:rgb(255, 255, 255, 0.1); 
     color: #f4f4f4;
+    border-radius: 10px;
 }
