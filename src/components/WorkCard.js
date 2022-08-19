@@ -37,7 +37,7 @@ const WorkCard = () => {
           <div className="pro-details">
             <p>my portfolio web , un site perso................................</p>
             <div className="pro-btns">
-              <NavLink to="url.com" className="btn">
+              <NavLink to="https://cryptic-island-58592.herokuapp.com" className="btn">
                 VIEW
               </NavLink>
               <a href="https://github.com/papeseck/gitPortfolio2.git"><button  className="btn"> 
